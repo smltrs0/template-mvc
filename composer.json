@@ -1,0 +1,41 @@
+{
+    "name": "steampixel/simple-php-router",
+    "description": "This is a simple and small PHP router that can handel the whole url routing for your project.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christoph Stitz",
+            "email": "info@steampixel.de",
+            "homepage": "https://steampixel.de/"
+        },
+        {
+            "name": "Maximilian Götz",
+            "email": "contact@maxbits.net",
+            "homepage": "https://www.maxbits.net/"
+        },
+        {
+            "name": "Samuel E Trias",
+            "email": "smltrs0@gmail.com",
+            "homepage": "https://samueltrias.ml"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "larapack/dd": "1.*",
+        "illuminate/database": "8.x-dev",
+        "illuminate/events": "8.x-dev"
+    },
+    "autoload": {
+      "psr-0": {
+          "Steampixel": "src/",
+          "Config" : "Config/"
+      },
+      "classmap": [
+        "Controller/",
+        "Models/",
+        "Config/",
+        "Core/"
+      ]
+  }
+}
