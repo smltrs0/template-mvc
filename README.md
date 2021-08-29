@@ -1,4 +1,4 @@
-#Template MVC
+# Template MVC
 Templete que posee un esqueleto de una app MVC funcional, ideal para proyectos pequeños
 ## Eloquent ORM
 ## Simple PHP Router
